@@ -1,0 +1,22 @@
+###############################################################
+# Activation parameters:
+# @reboot       = run at boot and reboot only
+# @yearly       = run at midnight Jan 1 each year (equiv to 0 0 1 1 *)
+# @annually     = run at midnight Jan 1 each year (equiv to 0 0 1 1 *)
+# @monthly      = run at midnight,first day of month (equiv to 0 0 1 * *)
+# @weekly       = run at midnight each Sunday (equiv to 0 0 * * 0)
+# @daily        = run at midnight each day (equiv to 0 0 * * *)
+# @ midnight    = run at midnight each day (equiv to 0 0 * * *)
+# @ hourly      = run on the first second of every hour (equiv to 0 * * * *)
+#
+# 1 2 3 4 5     = specific time tags
+# * * * * *     = ingnore
+# 1 = Minute (of hour) to activate [0-59]
+# 2 = Hour (of day) to activate [0-23]
+# 3 = Day (of month)
+# 4 = Month (of year)
+# 5 = Weekday to Mon,Tue,Wed"]        --RobO
+################################################################
+
+
+MAILTO=rosteen@jhu.edu
